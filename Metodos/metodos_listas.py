@@ -19,3 +19,8 @@ agregando = lista.append("Constanza")
 lista.insert(3, "Orozco")
 
 #EXTEND
+
+#agrega varios elementos a la lista
+lista.extend((False, 1))
+
+print(lista)
