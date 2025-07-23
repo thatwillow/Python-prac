@@ -23,4 +23,7 @@ lista.insert(3, "Orozco")
 #agrega varios elementos a la lista
 lista.extend((False, 1))
 
+#eliminando un elemento de la lista (por su indice)
+lista.pop(-1)
+
 print(lista)
